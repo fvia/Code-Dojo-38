@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code-Dojo-38", "Code-Dojo-38\Code-Dojo-38.csproj", "{A1AE1AA5-7B42-42FA-9736-8AB7F7DB845F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code-Dojo-38Tests", "Code-Dojo-38Tests\Code-Dojo-38Tests.csproj", "{76E7D50F-41D4-44C9-B169-E7D98E499EF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A1AE1AA5-7B42-42FA-9736-8AB7F7DB845F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1AE1AA5-7B42-42FA-9736-8AB7F7DB845F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1AE1AA5-7B42-42FA-9736-8AB7F7DB845F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76E7D50F-41D4-44C9-B169-E7D98E499EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76E7D50F-41D4-44C9-B169-E7D98E499EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76E7D50F-41D4-44C9-B169-E7D98E499EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76E7D50F-41D4-44C9-B169-E7D98E499EF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

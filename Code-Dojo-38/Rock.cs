@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Code_Dojo_38
 {
-    class Rock : Thing
+    public class Rock : Thing
     {
-        public override bool Beats(Thing other)
+        public override bool? Beats(Thing other)
         {
+            if (other is Rock) return null;
+            if (other is Paper) return false;
             return true;
         }
 

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Code_Dojo_38
 {
-    abstract class Thing
+    public abstract class Thing
     {
-        public abstract bool Beats(Thing other); 
+        public abstract bool? Beats(Thing other); 
     }
 }
