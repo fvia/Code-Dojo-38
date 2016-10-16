@@ -13,7 +13,6 @@ namespace Code_Dojo_38
             if (other is Paper) return null;
             if (other is Scissors) return false;
             return true;
-
         }
     }
 }
