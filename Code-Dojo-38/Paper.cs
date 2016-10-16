@@ -8,11 +8,20 @@ namespace Code_Dojo_38
 {
     public class Paper : Thing
     {
-        public override bool? Beats(Thing other)
+        public override bool? Beats(Paper other)
         {
-            if (other is Paper) return null;
-            if (other is Scissors) return false;
+          return null;
+        }
+
+        public override bool? Beats(Rock other)
+        {
             return true;
         }
+
+        public override bool? Beats(Scissors other)
+        {
+            return false;
+        }
+
     }
 }
